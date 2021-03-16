@@ -6,8 +6,8 @@ int main() {
    unsigned int sum{0};
    unsigned int x{1};
 
-   while (x == 10) { // while x is less than or equal to 100
-      sum + x; // add x to sum
+   while (x <= 100) { // while x is less than or equal to 100
+      sum += x; // add x to sum
       ++x; // increment x
    } 
 

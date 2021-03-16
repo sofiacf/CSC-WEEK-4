@@ -7,8 +7,8 @@ int main() {
    unsigned int total{0};
 
    while (x <= 10) {
-      int y = x * x;
-
+      total += (x * x);
+      ++x;
    } 
 
    cout << "Total is " << total << endl;

@@ -20,6 +20,6 @@ int main() {
 }
 
 // Answer the question above here...
-//
-//
-//
+// Postincrementing (x++) increments a variable last, returning its previous value.
+// Preincrementing (++x), on the other hand, returns the incremented value.
+// 
